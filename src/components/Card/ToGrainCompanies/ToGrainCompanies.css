@@ -1,0 +1,61 @@
+.screen-to-grain-companies {
+    background-color: var(--white);
+    min-height: 829px; /*  TODO: remove later? */
+    height: 100vh;
+    padding: 9vw 9vw;
+    --half-content-width: calc((100vw - (9vw * 2)) / 2); /*  TODO: move to index.css */
+}
+
+.to-grain-companies_slider-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.to-grain-companies_side {
+    display: flex;
+    flex-direction: column;
+    width: var(--half-content-width);
+}
+
+.to-grain-companies_left-side {
+    background-color: var(--cream-green);
+}
+
+.to-grain-companies_slide-text {
+    height: 84.5%;
+    font-size: 1.7em;
+    font-weight: 100;
+    padding-right: 3em;
+    line-height: 1.5;
+}
+
+.to-grain-companies_slider-arrows {
+    height: 15.5%;
+}
+
+.to-grain-companies_slider-dot:not(.to-grain-companies_slider-dot--active) {
+    background-color: var(--white);
+}
+
+.to-grain-companies_slider-index {
+    width: 100%;
+    font-size: 3em;
+    font-weight: 900;
+    color: var(--lighter-gray);
+    text-align: right;
+    padding: 0.8em;
+}
+
+.to-grain-companies_slide-picture {
+    flex-grow: 1;/* doesn't work properly. google: why? */
+    background-size: cover;
+    height: var(--half-content-width);
+    width: var(--half-content-width);
+}
+
+.to-grain-companies_slide-content {
+    flex-grow: 1;/* doesn't work properly. google: why? */
+    height: var(--half-content-width);
+    width: var(--half-content-width);
+    padding: 6.1em 5.6em;
+}

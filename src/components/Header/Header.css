@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  font-size: 1.5em;
+  padding: 1.6em 6em;
+}
+
+.header_logo {
+  width: 9.4em;
+  height: 3.1em;
+  cursor: pointer;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 3em;
+  font-size: 0.9em; /* TODO: remove and update fz in .header (and then fix changed padding, width and height */
+}
+
+.header_menu-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header_menu-item:hover {
+  text-decoration: underline;
+}
+
+.menu_button:hover {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}

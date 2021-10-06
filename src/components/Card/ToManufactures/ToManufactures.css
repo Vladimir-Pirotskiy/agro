@@ -1,0 +1,57 @@
+.screen-to-manufactures {
+    background-color: var(--cream-green);
+    min-height: 829px; /*  TODO: remove later? */
+    height: 100vh;
+    padding: 0 9vw 9vw;
+    --half-content-width: calc((100vw - (9vw * 2)) / 2);
+}
+
+.to-manufactures_slider-wrapper {
+    height: 100%;
+}
+
+.to-manufactures_slide {
+    display: flex;
+    height: 84.5%;
+}
+
+.to-manufactures_slide-picture {
+    flex-grow: 1;/* doesn't work properly. google: why? */
+    background-size: cover;
+    height: var(--half-content-width);
+    width: var(--half-content-width);
+}
+
+.to-manufactures_slide-content {
+    flex-grow: 1;/* doesn't work properly. google: why? */
+    height: var(--half-content-width);
+    width: var(--half-content-width);
+    background-color: var(--white);
+    padding: 6.1em 5.6em;
+}
+
+.to-manufactures_slide-text {
+    font-size: 1.7em;
+    font-weight: 100;
+    padding-right: 3em;
+    line-height: 1.5;
+}
+
+.to-manufactures_slider-controls {
+    display: flex;
+    height: 15.5%;
+}
+
+.to-manufactures_slider-index {
+    width: var(--half-content-width);
+    font-size: 3em;
+    font-weight: 900;
+    color: var(--white);
+    text-align: right;
+    padding: 0.8em;
+    background-color: var(--cream-green);
+}
+
+.to-manufactures_slider-arrows {
+    background-color: var(--white);
+}

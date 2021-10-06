@@ -1,0 +1,27 @@
+.footer {
+  min-height: 356px; /*  TODO: remove later? */
+  height: 50vh;
+  padding: 4vw 9vw 1vw;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer_menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 3em 3em 3em;
+  border-top: 1px solid var(--lighter-gray);
+  padding: 3.5vw 25% 3.5vw 0;
+}
+
+.footer_menu-item {
+  font-size: 1.1em;
+}
+
+.footer_copyright {
+  text-align: center;
+  font-size: 1.2em;
+}
+

@@ -1,0 +1,61 @@
+.card-mobile-app {
+  display: flex;
+  justify-content: space-between;
+  min-height: 456px; /*  TODO: remove later? */
+  height: 58vh;
+  padding: 0 8vw;
+  background: linear-gradient(
+    to bottom, /*  direction */
+    var(--white) 0%, var(--white) 40%, /*  upper part */
+    #000000 40%, /*  middle (not seen?) */
+    var(--cream-green) 40%, var(--cream-green) 100% /*  bottom part */
+  );
+  --column-width: 40vw;
+}
+
+.mobile-app_image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.mobile-app_image {
+  width: var(--column-width);
+}
+
+.mobile-app_content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: var(--column-width);
+  padding: 4em 0 5em 2em;
+}
+
+.mobile-app_title {
+  font-size: 3.1em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+.mobile-app_text {
+  font-size: 1.1em;
+  padding-right: 3em;
+}
+
+.mobile-app_buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-app_button { /* TODO: Make this button, just like other btns, but with image inside */
+  width: 10em;
+  margin-right: 2em; /* TODO: remove when normal images are present */
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.mobile-app_button:last-child { /* TODO: remove when normal images are present */
+  width: unset;
+  height: 42px;
+  margin-right: 15em;
+}

@@ -1,0 +1,56 @@
+.screen-to-private {
+    background-color: var(--black-2);
+    min-height: 829px; /*  TODO: remove later? */
+    height: 100vh;
+    padding: 9vw 9vw 0;
+    --half-content-width: calc((100vw - (9vw * 2)) / 2);
+}
+
+.to-private_slider-wrapper {
+    height: 100%;
+}
+
+.to-private_slide {
+    display: flex;
+    height: 84.5%;
+}
+
+.to-private_slide-picture {
+    flex-grow: 1;/* doesn't work properly. google: why? */
+    background-size: cover;
+    height: var(--half-content-width);
+    width: var(--half-content-width);
+}
+
+.to-private_slide-content {
+    flex-grow: 1;/* doesn't work properly. google: why? */
+    height: var(--half-content-width);
+    width: var(--half-content-width);
+    background-color: var(--white);
+    padding: 6.1em 5.6em;
+}
+
+.to-private_slide-text {
+    font-size: 1.7em;
+    font-weight: 100;
+    padding-right: 3em;
+    line-height: 1.5;
+}
+
+.to-private_slider-controls {
+    display: flex;
+    height: 15.5%;
+}
+
+.to-private_slider-index {
+    width: var(--half-content-width);
+    font-size: 3em;
+    font-weight: 900;
+    color: var(--lighter-gray);
+    text-align: right;
+    padding: 0.8em;
+}
+
+.to-private_slider-arrows {
+    background-color: var(--white);
+}

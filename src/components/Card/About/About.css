@@ -1,0 +1,60 @@
+.screen-about {
+    background: url(../../../assets/aboutBackground.png);
+    height: 100vh;
+    min-height: 829px;
+}
+
+.screen-about_gradient-overlay {
+    width: 100%;
+    height: 100%;
+    padding: 8em 9em;
+    background: linear-gradient(359.04deg, var(--black-3) 18.04%, var(--transparent-black) 95.88%);
+}
+
+.screen-about_text-content {
+    color: var(--white);
+    margin-bottom: 9em;
+}
+
+.screen-about_title {
+    font-size: 3.8em;
+    font-weight: 100;
+    line-height: 1.8;
+    border-bottom: 3px solid var(--white);
+    width: 5em;
+    margin-bottom: 1.3em;
+}
+
+.screen-about_text {
+    font-size: 2.3em;
+    font-weight: 100;
+    line-height: 1.5;
+    padding-right: 4em;
+}
+
+.screen-about_numbers {
+    display: flex;
+    justify-content: space-between;
+    color: var(--cream-orange);
+}
+
+.screen-about_numbers-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 13em;
+    text-align: center;
+}
+
+.numbers-item_number {
+    font-size: 6.5em;
+    font-weight: 600;
+}
+
+.numbers-item_separator {
+    margin: auto;
+}
+
+.numbers-item_text {
+    font-size: 2.2em;
+}
