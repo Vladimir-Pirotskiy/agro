@@ -1,12 +1,12 @@
 import React from 'react';
 import './MobileAppCard.css';
-import appStoreBtn from '../../../assets/app-store.jpg';
+import appStoreBtn from '../../../assets/app-store.png';
 import googlePlayBtn from '../../../assets/google-play.png';
 import phoneAndLaptopImg from '../../../assets/phone-and-laptop.png';
 
 const MobileAppCard = () => {
   return (
-    <section className="card-mobile-app mobile-app">
+    <section className="card-mobile-app mobile-app card">
       <div className="mobile-app_image-container">
         <img src={phoneAndLaptopImg} alt="Mobile App And Web Service" className="mobile-app_image" />
       </div>
@@ -14,8 +14,12 @@ const MobileAppCard = () => {
         <div className="mobile-app_title thin-title">Мобильное приложение <br /> и веб-сервис</div>
         <div className="mobile-app_text">С широким набором простых и ценных инструментов для участников с/х рынка</div>
         <div className="mobile-app_buttons-container">
-          <img src={appStoreBtn} className="mobile-app_button" alt="App Store Button" />
-          <img src={googlePlayBtn} className="mobile-app_button" alt="Google Play Button" />
+          <button className="mobile-app_button button">
+            <img src={appStoreBtn} className="mobile-app_button-image" alt="App Store Button" />
+          </button>
+          <button className="mobile-app_button button">
+            <img src={googlePlayBtn} className="mobile-app_button-image" alt="Google Play Button" />
+          </button>
         </div>
       </div>
     </section>

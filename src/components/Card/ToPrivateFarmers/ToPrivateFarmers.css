@@ -1,6 +1,6 @@
 .screen-to-private {
     background-color: var(--black-2);
-    min-height: 829px; /*  TODO: remove later? */
+    min-height: 700px;
     height: 100vh;
     padding: 9vw 9vw 0;
     --half-content-width: calc((100vw - (9vw * 2)) / 2);
@@ -49,6 +49,7 @@
     color: var(--lighter-gray);
     text-align: right;
     padding: 0.8em;
+    background-color: var(--black);
 }
 
 .to-private_slider-arrows {

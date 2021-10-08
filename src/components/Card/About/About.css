@@ -1,7 +1,7 @@
 .screen-about {
     background: url(../../../assets/aboutBackground.png);
     height: 100vh;
-    min-height: 829px;
+    min-height: 700px;
 }
 
 .screen-about_gradient-overlay {

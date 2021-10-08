@@ -1,7 +1,7 @@
 .questions {
   display: flex;
-  min-height: 617px; /*  TODO: remove later? */
-  height: 78vh;
+  min-height: 600px;
+  height: 88vh;
   padding: 10vw 6vw;
   background-color: var(--white);
   justify-content: space-between;
@@ -40,5 +40,5 @@
   width: 60%;
   background-color: var(--cream-green);
   border: 1px solid var(--cream-green);
-  font-weight: 600;
+  
 }

@@ -1,8 +1,8 @@
 .card-mobile-app {
   display: flex;
   justify-content: space-between;
-  min-height: 456px; /*  TODO: remove later? */
-  height: 58vh;
+  min-height: 400px;
+  height: 75vh;
   padding: 0 8vw;
   background: linear-gradient(
     to bottom, /*  direction */
@@ -44,18 +44,18 @@
 
 .mobile-app_buttons-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
-.mobile-app_button { /* TODO: Make this button, just like other btns, but with image inside */
-  width: 10em;
-  margin-right: 2em; /* TODO: remove when normal images are present */
+.mobile-app_button {
+  width: 14em;
+  height: 4.2em;
+  margin-right: 2em;
   border-radius: 0.5em;
   cursor: pointer;
+  background-color: var(--black);
 }
 
-.mobile-app_button:last-child { /* TODO: remove when normal images are present */
-  width: unset;
-  height: 42px;
-  margin-right: 15em;
+.mobile-app_button:hover {
+  filter: brightness(1.2);
 }

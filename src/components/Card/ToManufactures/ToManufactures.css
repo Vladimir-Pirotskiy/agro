@@ -1,6 +1,6 @@
 .screen-to-manufactures {
     background-color: var(--cream-green);
-    min-height: 829px; /*  TODO: remove later? */
+    min-height: 700px;
     height: 100vh;
     padding: 0 9vw 9vw;
     --half-content-width: calc((100vw - (9vw * 2)) / 2);
@@ -8,6 +8,7 @@
 
 .to-manufactures_slider-wrapper {
     height: 100%;
+    overflow: hidden;
 }
 
 .to-manufactures_slide {

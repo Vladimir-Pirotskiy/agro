@@ -12,7 +12,7 @@ import linkedinIcon from '../../../assets/linkedin.svg';
 
 const ContactsCard = () => {
   return (
-    <section className="card-contacts">
+    <section className="card-contacts card">
       <img src={map} alt="Address Map" className="card-contacts_map" />
       <img src={geoPointIconMap} alt="Geo Point Map Icon" className="card-contacts_map-geo-point" />
       <div className="card-contacts_info">

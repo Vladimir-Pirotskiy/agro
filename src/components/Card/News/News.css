@@ -3,9 +3,9 @@
     flex-direction: column;
     align-items: center;
     background-color: var(--white);
-    min-height: 829px; /*  TODO: remove later? */
+    min-height: 700px;
     height: 100vh;
-    padding: 9vw 9vw;
+    padding: 4vw 9vw;
     --preview-side: 26em;
 }
 

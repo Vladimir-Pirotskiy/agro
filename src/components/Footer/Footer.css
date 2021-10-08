@@ -1,5 +1,5 @@
 .footer {
-  min-height: 356px; /*  TODO: remove later? */
+  min-height: 350px;
   height: 50vh;
   padding: 4vw 9vw 1vw;
   background-color: var(--white);

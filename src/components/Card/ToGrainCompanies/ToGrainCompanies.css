@@ -1,9 +1,10 @@
 .screen-to-grain-companies {
     background-color: var(--white);
-    min-height: 829px; /*  TODO: remove later? */
+    min-height: 700px;
     height: 100vh;
-    padding: 9vw 9vw;
+    padding: 5vw 9vw;
     --half-content-width: calc((100vw - (9vw * 2)) / 2); /*  TODO: move to index.css */
+    --controls-height: calc(var(--half-content-width) * 0.2);
 }
 
 .to-grain-companies_slider-wrapper {
@@ -19,10 +20,10 @@
 
 .to-grain-companies_left-side {
     background-color: var(--cream-green);
+    height: 100%;
 }
 
 .to-grain-companies_slide-text {
-    height: 84.5%;
     font-size: 1.7em;
     font-weight: 100;
     padding-right: 3em;
@@ -30,7 +31,7 @@
 }
 
 .to-grain-companies_slider-arrows {
-    height: 15.5%;
+    height: var(--controls-height);
 }
 
 .to-grain-companies_slider-dot:not(.to-grain-companies_slider-dot--active) {
@@ -39,10 +40,11 @@
 
 .to-grain-companies_slider-index {
     width: 100%;
+    height: var(--controls-height);
     font-size: 3em;
     font-weight: 900;
     color: var(--lighter-gray);
-    text-align: right;
+    text-align: left;
     padding: 0.8em;
 }
 
