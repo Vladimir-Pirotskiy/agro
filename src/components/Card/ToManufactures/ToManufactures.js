@@ -7,6 +7,15 @@ const ToManufactures = () => {
         <section className='screen-to-manufactures to-manufactures screen'>
             <div className="to-manufactures_slider-wrapper">
                 <div className="to-manufactures_slide slide">
+                    <div className="to-manufactures_slider-title-wrapper-mob">
+                        <div className="to-manufactures_slider-index to-manufactures_slider-index--mob slider-index">03</div>
+                        <div className="to-manufactures_slide-title to-manufactures_slide-title--mob thin-title">
+                            Производителям
+                        </div>
+                        <div className="to-manufactures_slide-text to-manufactures_slide-text--mob slide-text">
+                            Отслеживайте спрос на продукцию и заказы аграриев
+                        </div>
+                    </div>
                     <div
                         className="to-manufactures_slide-picture slide-picture"
                         style={{

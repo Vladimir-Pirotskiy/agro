@@ -1,6 +1,6 @@
 import React from 'react';
 import './QuestionsFormCard.css';
-import questionsPicture from '../../../assets/questions.jpg';
+import questionsPicture from '../../../assets/questions.svg';
 
 
 const QuestionsFormCard = () => {

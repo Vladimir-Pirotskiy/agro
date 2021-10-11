@@ -9,7 +9,9 @@ const ToGrainCompanies = () => {
                 <div className="to-grain-companies_left-side to-grain-companies_side">
                     <div className="to-grain-companies_slide-content slide-content">
                         <div className="to-grain-companies_slide-title thin-title">Зерновым компаниям</div>
-                        <div className="to-grain-companies_slide-text slide-text">Прямой доступ к заявкам на продажу урожая от аграриев со всей страны.</div>
+                        <div className="to-grain-companies_slide-text slide-text">
+                            Прямой доступ к заявкам на продажу урожая от аграриев со всей страны.
+                        </div>
                     </div>
                     <div className="to-grain-companies_slider-arrows slider-arrows">
                         <div className="to-grain-companies_slider-arrow--left slider-arrow--left slider-arrow">{'<'}</div>
@@ -25,6 +27,17 @@ const ToGrainCompanies = () => {
                 </div>
                 <div className="to-grain-companies_right-side to-grain-companies_side">
                     <div className="to-grain-companies_slider-index slider-index">02</div>
+                    <div className="to-grain-companies_slider-title-wrapper-mob">
+                        <div className="to-grain-companies_slider-index to-grain-companies_slider-index--mob slider-index">
+                            02
+                        </div>
+                        <div className="to-grain-companies_slide-title to-grain-companies_slide-title--mob thin-title">
+                            Зерновым компаниям
+                        </div>
+                        <div className="to-grain-companies_slide-text to-grain-companies_slide-text--mob slide-text">
+                            Прямой доступ к заявкам на продажу урожая от аграриев со всей страны.
+                        </div>
+                    </div>
                     <div
                         className="to-grain-companies_slide-picture slide-picture"
                         style={{

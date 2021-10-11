@@ -55,3 +55,54 @@
 .to-private_slider-arrows {
     background-color: var(--white);
 }
+
+.to-private_slider-title-wrapper-mob {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .screen-to-private {
+        font-size: 1.5em;
+        padding: 3vh 0;
+        --half-content-width: 100vw;
+    }
+
+    .to-private_slider-title-wrapper-mob {
+        display: block;
+        margin-bottom: 5em;
+    }
+
+    .to-private_slider-index {
+        display: none;
+    }
+
+    .to-private_slider-index--mob {
+        display: inline;
+        font-size: 3.8em;
+    }
+
+    .to-private_slide-title {
+        display: none;
+    }
+
+    .to-private_slide-title--mob {
+        display: inline;
+        color: var(--white);
+    }
+
+    .to-private_slide {
+        flex-direction: column;
+    }
+
+    .to-private_slide-content {
+        height: unset;
+    }
+
+    .to-private_slide-text {
+        font-size: 2.5em;
+    } 
+
+    .to-private_slider-arrows {
+        background-color: var(--transparent);
+    }
+}

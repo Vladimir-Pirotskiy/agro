@@ -12,7 +12,8 @@
   flex-direction: column;
   justify-content: center;
   width: 60%;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
   text-align: center;
 }

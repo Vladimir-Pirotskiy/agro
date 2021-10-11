@@ -122,3 +122,17 @@ body {
 .slider-dot--active {
   background-color: #2C7967;
 }
+
+@media screen and (max-width: 768px) {
+  .slider-arrows {
+    font-size: 1.8em;
+  }
+
+  .slider-arrow {
+    display: none;
+  }
+
+  .slider-dot {
+    margin: 0 .6em;
+  }
+}

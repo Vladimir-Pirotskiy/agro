@@ -1,5 +1,5 @@
 .screen-about {
-    background: url(../../../assets/aboutBackground.png);
+    background: url(../../../assets/aboutBackground.jpg);
     height: 100vh;
     min-height: 700px;
 }
@@ -57,4 +57,33 @@
 
 .numbers-item_text {
     font-size: 2.2em;
+}
+
+@media screen and (max-width: 768px) {
+    .screen-about {
+        height: unset;
+        font-size: 1.5em;
+    }
+
+    .screen-about_gradient-overlay {
+        padding: 8em 6em;
+    }
+
+    .screen-about_text {
+        padding-right: 0;
+    }
+
+    .screen-about_numbers {
+        flex-direction: column;
+    }
+
+    .screen-about_numbers-item {
+        height: 17em;
+        margin-bottom: 5em;
+    }
+
+    .numbers-item_text {
+        font-size: 3em;
+    }
+
 }

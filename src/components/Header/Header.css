@@ -24,6 +24,10 @@
   cursor: pointer;
 }
 
+.header_menu-item--only-mob {
+  display: none;
+}
+
 .header_menu-item:hover {
   text-decoration: underline;
 }
@@ -32,4 +36,100 @@
   background-color: #000;
   color: #fff;
   text-decoration: none;
+}
+
+.header_menu-mobile-blur,
+.header_menu-mobile-header,
+.header_menu-mobile-sandwich {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 4em 3em;
+  }
+
+  .header_menu-mobile-header,
+  .header_menu-mobile-blur,
+  .header_menu {
+    position: fixed;
+    left: 0;
+    width: 100%;
+  }
+
+  .header_menu-mobile-header--hidden,
+  .header_menu-mobile-blur--hidden,
+  .header_menu--hidden {
+    left: 100%;
+  }
+
+  .header_menu-mobile-blur {
+    display: block;
+    top: 0;
+    height: 100vh;
+    filter: blur(8px);
+    background-image: url(../../assets/HomeGrainerImg.jpg);
+    background-size: 400%;
+    background-position: center;
+    z-index: 10;
+  }
+
+  .header_menu-mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em 3em;
+    z-index: 20;
+  }
+
+  .header_menu-mobile-sandwich {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header_menu-mobile-sandwich-svg {
+    width: 50%;
+  }
+
+  .header_menu-mobile-logo {
+    width: 9.4em;
+    height: 3.1em;
+  }
+
+  .header_menu-mobile-close {
+    width: 40px;
+    font-size: 2em;
+    text-align: center;
+    filter: brightness(0); /* TODO: rework this with css (remove X character from HTML)  */
+  }
+
+  .header_menu {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: unset;
+    top: 10vh;
+    height: 90vh;
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 3em;
+    z-index: 30;
+  }
+
+  .header_menu-item {
+    justify-content: center;
+    margin: 1em;
+    text-shadow: 0 14px 42px rgba(255, 255, 255, 0.8);
+  }
+
+  .header_menu-item--only-mob {
+    display: flex;
+  }
+
+  .menu_button {
+    margin-top: auto;
+  }
 }

@@ -7,6 +7,10 @@ const ToPrivateFarmers = () => {
         <section className='screen-to-private to-private screen'>
             <div className="to-private_slider-wrapper">
                 <div className="to-private_slide slide">
+                    <div className="to-private_slider-title-wrapper-mob">
+                        <div className="to-private_slider-index to-private_slider-index--mob slider-index">01</div>
+                        <div className="to-private_slide-title to-private_slide-title--mob thin-title">Аграриям</div>
+                    </div>
                     <div
                         className="to-private_slide-picture slide-picture"
                         style={{
