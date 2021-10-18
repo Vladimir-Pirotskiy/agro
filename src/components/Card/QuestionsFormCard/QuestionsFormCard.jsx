@@ -1,11 +1,12 @@
 import React from 'react';
 import './QuestionsFormCard.css';
 import questionsPicture from '../../../assets/questions.svg';
+import questionsPictureMob from '../../../assets/questions_mob.svg';
 
 
 const QuestionsFormCard = () => {
   return (
-    <div className="card-questions questions card">
+    <div className="card-questions questions card" style={{ backgroundImage: `url(${questionsPictureMob})` }}>
       <div className="questions_picture-content" style={{ backgroundImage: `url(${questionsPicture})` }}>
         <div className="questions_picture-title thin-title">Остались вопросы?</div>
         <div className="questions_picture-text">Мы постараемся ответь на них максимально быстро!</div>

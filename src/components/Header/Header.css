@@ -63,7 +63,7 @@
   .header_menu-mobile-header--hidden,
   .header_menu-mobile-blur--hidden,
   .header_menu--hidden {
-    left: 100%;
+    left: 110%;
   }
 
   .header_menu-mobile-blur {

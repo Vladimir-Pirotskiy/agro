@@ -2,6 +2,7 @@ import React from 'react';
 import './ContactsCard.css';
 
 import map from '../../../assets/map.png';
+import mapMob from '../../../assets/map_mob.png';
 import geoPointIconMap from '../../../assets/map_point_white.svg';
 import phoneIcon from '../../../assets/phone.svg';
 import mailIcon from '../../../assets/mail.svg';
@@ -14,6 +15,7 @@ const ContactsCard = () => {
   return (
     <section className="card-contacts card">
       <img src={map} alt="Address Map" className="card-contacts_map" />
+      <img src={mapMob} alt="Address Map" className="card-contacts_map card-contacts_map--mob" />
       <img src={geoPointIconMap} alt="Geo Point Map Icon" className="card-contacts_map-geo-point" />
       <div className="card-contacts_info">
         <div className="card-contacts_title thin-title">Контакты</div>

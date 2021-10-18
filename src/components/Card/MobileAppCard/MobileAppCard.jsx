@@ -13,6 +13,7 @@ const MobileAppCard = () => {
       <div className="mobile-app_content-container">
         <div className="mobile-app_title thin-title">Мобильное приложение <br /> и веб-сервис</div>
         <div className="mobile-app_text">С широким набором простых и ценных инструментов для участников с/х рынка</div>
+        <img src={phoneAndLaptopImg} alt="Mobile App And Web Service" className="mobile-app_image mobile-app_image--mob" />
         <div className="mobile-app_buttons-container">
           <button className="mobile-app_button button">
             <img src={appStoreBtn} className="mobile-app_button-image" alt="App Store Button" />

@@ -25,3 +25,29 @@
   font-size: 1.2em;
 }
 
+@media screen and (max-width: 768px) {
+  .footer {
+    height: 80vh;
+    font-size: 3em;
+    padding: 0;
+  }
+
+  .footer_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    border: none;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  .footer_menu-item {
+    font-size: 1.1em;
+  }
+
+  .footer_copyright {
+    line-height: 4;
+    background-color: var(--cream-green);
+  }
+}

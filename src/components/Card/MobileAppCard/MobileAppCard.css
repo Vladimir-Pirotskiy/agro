@@ -59,3 +59,56 @@
 .mobile-app_button:hover {
   filter: brightness(1.2);
 }
+
+.mobile-app_image--mob {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .card-mobile-app {
+    height: 85vh;
+    font-size: 1.5em;
+    background: linear-gradient(
+      to bottom, /*  direction */
+      var(--white) 0%, var(--white) 70%, /*  upper part */
+      #000000 70%, /*  middle (not seen?) */
+      var(--cream-green) 70%, var(--cream-green) 100% /*  bottom part */
+    );
+  }
+
+  .mobile-app_content-container {
+    justify-content: end;
+    width: 100%;
+    padding: 0;
+  }
+
+  .mobile-app_image-container {
+    display: none;
+  }
+
+  .mobile-app_image--mob {
+    display: block;
+  }
+
+  .mobile-app_image {
+    width: 80%;
+  }
+
+  .mobile-app_text {
+    font-size: 2em;
+    margin-bottom: 2em;
+  }
+
+  .mobile-app_buttons-container {
+    flex-direction: column;
+    justify-content: unset;
+    height: 30%;
+    padding: 5em 0;
+  }
+
+  .mobile-app_button {
+    width: unset;
+    margin-bottom: 1em;
+    margin-right: 0;
+  }
+}

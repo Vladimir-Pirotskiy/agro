@@ -4,6 +4,7 @@
   height: 88vh;
   padding: 10vw 6vw;
   background-color: var(--white);
+  background-size: 1px;
   justify-content: space-between;
 }
 
@@ -42,4 +43,39 @@
   background-color: var(--cream-green);
   border: 1px solid var(--cream-green);
   
+}
+
+@media screen and (max-width: 768px) {
+  .questions {
+    flex-direction: column;
+    height: 100vh;
+    padding: 7vh 6vw 4vh;
+    font-size: 2.7em;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .questions_picture-content {
+    width: 100%;
+    background-size: 1px;
+  }
+
+  .questions_picture-title {
+    font-size: 2.7em;
+    margin-bottom: 1em;
+  }
+
+  .questions_form {
+    width: 100%;
+  }
+
+  .questions_form-textarea {
+    height: 9em;
+    margin-bottom: 4em;
+  }
+
+  .questions_form-submit {
+    width: unset;
+  }
 }

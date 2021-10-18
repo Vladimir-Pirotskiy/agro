@@ -73,3 +73,37 @@
 .screen-news_btn-all-news:hover {
     background-color: var(--transparent);
 }
+
+@media screen and (max-width: 768px) {
+    .screen-news {
+        font-size: 1.5em;
+        justify-content: space-between;
+        align-items: unset;
+    }
+
+    .screen-news_content {
+        height: unset;
+    }
+
+    .screen-news_title {
+        text-align: left;
+        font-size: 5em;
+    }
+
+    .screen-news_preview {
+        display: none;
+    }
+
+    .screen-news_titles-stream {
+        width: 100%;
+    }
+
+    .titles-stream_item,
+    .screen-news_btn-all-news {
+        font-size: 2em;
+    }
+
+    .titles-stream_item {
+        border-bottom-width: 1px;
+    }
+}
