@@ -1,6 +1,12 @@
 import React from "react";
+import AwesomeSlider from 'react-awesome-slider';
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
+
 import './ToGrainCompanies.css';
 import picture2 from '../../../assets/corn.jpg';
+import picture3 from '../../../assets/bread.jpg';
+
+const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const ToGrainCompanies = () => {
     return (
@@ -16,11 +22,11 @@ const ToGrainCompanies = () => {
                     <div className="to-grain-companies_slider-arrows slider-arrows">
                         <div className="to-grain-companies_slider-arrow--left slider-arrow--left slider-arrow">{'<'}</div>
                         <div className="to-grain-companies_slider-dots slider-dots">
-                            <div className="to-grain-companies_slider-dot slider-dot"></div>
-                            <div className="to-grain-companies_slider-dot slider-dot"></div>
-                            <div className="to-grain-companies_slider-dot slider-dot slider-dot--active to-grain-companies_slider-dot--active"></div>
-                            <div className="to-grain-companies_slider-dot slider-dot"></div>
-                            <div className="to-grain-companies_slider-dot slider-dot"></div>
+                            <div className="to-grain-companies_slider-dot slider-dot"/>
+                            <div className="to-grain-companies_slider-dot slider-dot"/>
+                            <div className="to-grain-companies_slider-dot slider-dot slider-dot--active to-grain-companies_slider-dot--active"/>
+                            <div className="to-grain-companies_slider-dot slider-dot"/>
+                            <div className="to-grain-companies_slider-dot slider-dot"/>
                         </div>
                         <div className="to-grain-companies_slider-arrow--right slider-arrow--right slider-arrow">{'>'}</div>
                     </div>
@@ -37,6 +43,28 @@ const ToGrainCompanies = () => {
                         <div className="to-grain-companies_slide-text to-grain-companies_slide-text--mob slide-text">
                             Прямой доступ к заявкам на продажу урожая от аграриев со всей страны.
                         </div>
+                    </div>
+                    <div className="to-grain-companies_slider-awesome-wrapper">
+                        <AutoplaySlider
+                            className="to-grain-companies_slider-awesome"
+                            play={true}
+                            cancelOnInteraction={false} // should stop playing on user interaction
+                            interval={6000}
+                            organicArrows={false}
+                        >
+                            <div
+                                className="to-grain-companies_slide-picture slide-picture"
+                                style={{
+                                    backgroundImage: `url(${picture2})`
+                                }}
+                            />
+                            <div
+                                className="to-grain-companies_slide-picture slide-picture"
+                                style={{
+                                    backgroundImage: `url(${picture3})`
+                                }}
+                            />
+                        </AutoplaySlider>
                     </div>
                     <div
                         className="to-grain-companies_slide-picture slide-picture"

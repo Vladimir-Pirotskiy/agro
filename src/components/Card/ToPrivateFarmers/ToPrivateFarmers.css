@@ -13,6 +13,16 @@
 .to-private_slide {
     display: flex;
     height: 84.5%;
+    overflow: hidden;
+}
+
+.to-private_slider-awesome-wrapper {
+    height: var(--half-content-width);
+    width: var(--half-content-width);
+}
+
+.to-private_slider-awesome {
+    height: 100%;
 }
 
 .to-private_slide-picture {
@@ -20,6 +30,10 @@
     background-size: cover;
     height: var(--half-content-width);
     width: var(--half-content-width);
+}
+
+.awssld__content {
+    background-size: cover;
 }
 
 .to-private_slide-content {

@@ -48,6 +48,25 @@
     padding: 0.8em;
 }
 
+.to-grain-companies_slide {
+    display: flex;
+    height: 84.5%;
+    overflow: hidden;
+}
+
+.to-grain-companies_slider-awesome-wrapper {
+    height: var(--half-content-width);
+    width: var(--half-content-width);
+}
+
+.to-grain-companies_slider-awesome {
+    height: 100%;
+}
+
+.awssld__content {
+    background-size: cover;
+}
+
 .to-grain-companies_slide-picture {
     flex-grow: 1;/* doesn't work properly. google: why? */
     background-size: cover;
